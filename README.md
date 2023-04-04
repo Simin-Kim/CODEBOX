@@ -17,7 +17,7 @@ _([Hola!](https://holaworld.io/)의 디자인과 기능을 참고하였습니다
 - __React.js__
 - __Redux-Toolkit (+Redux-Persist)__
 - __TypeScript__
-- __Styled-Components__a
+- __Styled-Components__
 
 ## 🏗 Architecture
 
