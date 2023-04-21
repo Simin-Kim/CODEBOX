@@ -1,94 +1,46 @@
-# [CODEBOX](http://codeboxs3.s3-website.ap-northeast-2.amazonaws.com/)
-__알고리즘 문제 풀이 커뮤니티 서비스 CODEBOX__ 의 __Web Front-End Repository__ 입니다.
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## ❓ What is CODEBOX?
-개발자의 취업에 있어 필수적인 요소이자 하나의 취미가 될 수 있는 __알고리즘 풀이!__ <br><br>
-알고리즘 문제를 풀면서 막히거나 내 풀이와의 비교를 위해 __다른 사람들의 풀이를 찾아볼 때, 여러 블로그를 오가는데 지친 당신을 위한 서비스__ 입니다.
+## Available Scripts
 
-__문제 검색__ 과 __필터링 기능__ 을 통해 __원하는 문제의 풀이를 빠르고 한눈에__ 찾아볼 수 있습니다. <br>
-_([Hola!](https://holaworld.io/)의 디자인과 기능을 참고하였습니다.)_
+In the project directory, you can run:
 
-## 👨‍👦‍👦 Team
-<!-- - [BonSik-Koo](https://github.com/BonSik-Koo): 기획, 백엔드 개발 -->
-<!-- - [Simin-Kim](https://github.com/Simin-Kim): 디자인, 프론트엔드 개발 -->
+### `npm start`
 
-|Member|Position|
-|------------|------------|
-|[BonSik-Koo](https://github.com/BonSik-Koo)|기획, 백엔드|
-|[Simin-Kim](https://github.com/Simin-Kim)|디자인, 프론트엔드|
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## 💻 Tech & Tools
-> Tech
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=React&logoColor=white"/> <img src="https://img.shields.io/badge/-Redux-764ABC?style=flat&logo=Redux&logoColor=white"/> <img src="https://img.shields.io/badge/Styled Components-DB7093?style=flat&logo=styled-components&logoColor=white"/>
+### `npm test`
 
-> Collaboration
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=Jira&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=Swagger&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/>
+### `npm run build`
 
-> Design
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<img src="https://img.shields.io/badge/-Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 🏗 Architecture
-<img src="https://user-images.githubusercontent.com/60087529/233519988-074726f0-62ac-4e58-9512-62108bad139c.png">
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## ⚙ Function
-<details>
-  <summary>사용자</summary>
-  
-  * 일반/소설(카카오,구글) 로그인 및 회원가입
-  * 회원 정보 수정
-  * 이메일 인증
-  * 팔로우/팔로우 관리
-  * 마이페이지
-</details>
+### `npm run eject`
 
-<details>
-  <summary>BOX</summary>
-  
-  * 코드 박스 작성(마크업), 수정, 삭제
-  * 좋아요 등록, 취소
-  * 댓글/대댓글 등록, 취소
-  * 해시태그
-  * 무한스크롤
-</details>
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-<details>
-  <summary>필터링 & 정렬</summary>
-  
-  * 해시태그, 제목, 언어, 타입(혼자 푼 문제, 보고 푼 문제)
-  * 최신순, 오래된순, 조회순, 좋아요순, 댓글순
-</details>
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 🖼 View
-<details>
-  <summary>로그인/회원가입(구글,카카오,일반)</summary>
-  
-  <img src="https://user-images.githubusercontent.com/96917871/225037950-14f955ad-1a31-4db1-b5b8-ab5db60fd082.gif" width="50%"> <img src="https://user-images.githubusercontent.com/96917871/225042385-49a17282-2c73-4922-ae13-5b3c9ef50e12.png" width="25%" height="80%"> 
-</details>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-<details>
-  <summary>메인페이지</summary>
-  
-  ![ezgif com-video-to-gif (4)](https://user-images.githubusercontent.com/96917871/224990994-a7cf1d85-f814-4840-898e-8f5e87ee952d.gif)
-</details>
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-<details>
-  <summary>마이페이지 & 게스트페이지</summary>
-  
-  <img src="https://user-images.githubusercontent.com/96917871/224993656-2029dfce-6aa3-4fca-97c1-bd0f8b84e049.gif" width="45%">   <img src="https://user-images.githubusercontent.com/96917871/224996129-99c85f4d-45b1-4ceb-8c2d-7c2f4a1aaed6.gif" width="45%">
-</details>
+## Learn More
 
-<details>
-  <summary>코드 박스 작성</summary>
-  
-  ![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/96917871/224990357-3fce9072-f5e7-462b-bbdf-725c0b34ab9b.gif)
-</details>
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<details>
-  <summary>팔로우 & 댓글</summary>
-  
-  ![ezgif com-video-to-gif (7)](https://user-images.githubusercontent.com/96917871/224999076-4d1c4d2e-b3e7-49f1-a925-43889de5c4d5.gif)
-</details>
+To learn React, check out the [React documentation](https://reactjs.org/).
